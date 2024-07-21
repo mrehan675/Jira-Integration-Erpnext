@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-02 04:04:24.235972",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "jira_server_url",
+  "email",
+  "token",
+  "te"
+ ],
+ "fields": [
+  {
+   "fieldname": "jira_server_url",
+   "fieldtype": "Data",
+   "label": "Jira Server Url ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "unique": 1
+  },
+  {
+   "fieldname": "token",
+   "fieldtype": "Password",
+   "label": "Token",
+   "length": 500
+  },
+  {
+   "fieldname": "te",
+   "fieldtype": "Data",
+   "label": "te"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-03 17:30:42.515557",
+ "modified_by": "Administrator",
+ "module": "testcrew",
+ "name": "Jira Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "email"
+}

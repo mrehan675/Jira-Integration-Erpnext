@@ -103,6 +103,14 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+	"Sales Order": {
+		"on_update": "testcrew.utils.sales_order.create_jira_issue_on_approval",
+        "on_cancel": "testcrew.utils.sales_order.create_jira_issue_on_approval"
+		
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
