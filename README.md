@@ -1,6 +1,6 @@
 ## testcrew
 
-testcrew
+testcrew (Jira Intergation App)
 
 #### License
 
